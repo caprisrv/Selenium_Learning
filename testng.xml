@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Load Department" parallel="tests" thread-count="2">
+	<listeners>
+		<listener class-name="TestNGTutorial.Listeners"/>
+	</listeners>
+	<parameter name="url" value="qaclickacademy"/>
+  <test thread-count="5" name="Personal Loan">
+    <classes>
+      <class name="TestNGTutorial.Class1">
+      	<methods>
+      		<include name="webLoginPersonalLoan"/>
+      	</methods>
+      </class>
+      <class name="TestNGTutorial.Class2"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Car Loan">
+  	<parameter name="url" value="carloan.com"/>
+    <classes>
+      <class name="TestNGTutorial.Class3"/>
+    </classes>
+  </test> 
+  <test thread-count="5" name="Home Loan">
+    <classes>
+      <class name="TestNGTutorial.Class4">
+      	<methods>
+      		<exclude name="apiLoginHomeLoan"/>
+      		<exclude name="mobile.*"/>
+      	</methods>
+      </class>
+    </classes>
+  </test> 
+</suite> 

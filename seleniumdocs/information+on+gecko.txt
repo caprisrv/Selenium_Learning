@@ -1,0 +1,27 @@
+The other important changes in Selenium 3.x are listed below:
+
+* Minimum java version is now 8+(Kindly use Java 8 lates and Selenium 3 to avoid this issue.)
+
+* The original RC APIs are only available via the leg-rc package.
+
+* To run exported IDE tests, ensure that the leg-rc package is on the classpath.
+
+* Support for Firefox is via Mozilla's geckodriver.
+* Support for Edge is provided by MS:
+* Official support for IE requires version 9 or above
+* New html-table runner backed by WebDriver.
+* Unused command line arguments are now no longer parsed.
+
+Geckodriver for firefox...
+*******************************
+When you are using Selenium 3 releases, you have to download geckodriver to run your test on firefox browser. Just like the other drivers(chromedriver/iedriver) available to Selenium, Mozilla has released geckodriver executable that will run alongside the firefox browser. Firefox version 48 & above will use geckodriver.
+
+If you want to work with Firefox you have to set the property now.  You can download geckodriver from Github and then you can extract and you will get .exe file. https://github.com/mozilla/geckodriver/releases/
+
+You can place it on C:\\ and use as below - 
+
+Sample Code:-
+System.setProperty("webdriver.gecko.driver”,”C:\\geckodriver.exe");
+WebDriver driver = new FirefoxDriver();
+driver.get("http://www.google.com");
+driver.quit();

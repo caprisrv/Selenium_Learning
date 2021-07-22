@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Load Department">
+  <test thread-count="5" name="Regression">
+  	<groups>
+  		<run>
+  			<include name="smoke"/>
+  		</run>
+  	</groups>
+  	
+    <classes>
+      <class name="TestNGTutorial.Class1"/>
+      <class name="TestNGTutorial.Class2"/>
+      <class name="TestNGTutorial.Class3"/>
+      <class name="TestNGTutorial.Class4"/>
+    </classes>
+  </test> 
+</suite> 

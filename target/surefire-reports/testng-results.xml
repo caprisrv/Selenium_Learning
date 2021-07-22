@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="12" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Load Department" duration-ms="290" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="Class1.webLoginPersonalLoan(java.lang.String)[pri:0, instance:TestNGTutorial.Class1@7c29daf3]" name="webLoginPersonalLoan" class="TestNGTutorial.Class1"/>
+        <method signature="Class2.webLoginPersonalLoanMod1()[pri:0, instance:TestNGTutorial.Class2@4f063c0a]" name="webLoginPersonalLoanMod1" class="TestNGTutorial.Class2"/>
+        <method signature="Class3.mobileLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Class3@458c1321]" name="mobileLoginCarLoan" class="TestNGTutorial.Class3"/>
+        <method signature="Class4.webLoginHomeLoan()[pri:0, instance:TestNGTutorial.Class4@30a3107a]" name="webLoginHomeLoan" class="TestNGTutorial.Class4"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Personal Loan" duration-ms="95" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+      <class name="TestNGTutorial.Class2">
+        <test-method status="PASS" signature="executeFirst()[pri:0, instance:TestNGTutorial.Class2@4f063c0a]" name="executeFirst" is-config="true" duration-ms="1" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeFirst -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNGTutorial.Class2@4f063c0a]" name="beforeClass" is-config="true" duration-ms="2" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="webLoginPersonalLoanMod1()[pri:0, instance:TestNGTutorial.Class2@4f063c0a]" name="webLoginPersonalLoanMod1" duration-ms="0" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginPersonalLoanMod1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNGTutorial.Class2@4f063c0a]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNGTutorial.Class2 -->
+      <class name="TestNGTutorial.Class1">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGTutorial.Class1@7c29daf3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="webLoginPersonalLoan(java.lang.String)[pri:0, instance:TestNGTutorial.Class1@7c29daf3]" name="webLoginPersonalLoan" duration-ms="2" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginPersonalLoan -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGTutorial.Class1@7c29daf3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="executeFirst()[pri:0, instance:TestNGTutorial.Class1@7c29daf3]" name="executeFirst" is-config="true" duration-ms="1" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeFirst -->
+      </class> <!-- TestNGTutorial.Class1 -->
+    </test> <!-- Personal Loan -->
+    <test name="Car Loan" duration-ms="110" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+      <class name="TestNGTutorial.Class3">
+        <test-method status="PASS" signature="apiLoginCarLoan()[pri:0, instance:TestNGTutorial.Class3@458c1321]" name="apiLoginCarLoan" duration-ms="3" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiLoginCarLoan -->
+        <test-method status="PASS" signature="mobileLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Class3@458c1321]" name="mobileLoginCarLoan" duration-ms="1" started-at="2021-07-20T10:52:59 IST" data-provider="getData" finished-at="2021-07-20T10:52:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method status="PASS" signature="mobileLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Class3@458c1321]" name="mobileLoginCarLoan" duration-ms="0" started-at="2021-07-20T10:52:59 IST" data-provider="getData" finished-at="2021-07-20T10:52:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method status="PASS" signature="mobileLoginCarLoan(java.lang.String,java.lang.String)[pri:0, instance:TestNGTutorial.Class3@458c1321]" name="mobileLoginCarLoan" duration-ms="0" started-at="2021-07-20T10:52:59 IST" data-provider="getData" finished-at="2021-07-20T10:52:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdpassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileLoginCarLoan -->
+        <test-method status="PASS" signature="webLoginCarLoan(java.lang.String)[pri:0, instance:TestNGTutorial.Class3@458c1321]" name="webLoginCarLoan" duration-ms="16" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[carloan.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginCarLoan -->
+      </class> <!-- TestNGTutorial.Class3 -->
+    </test> <!-- Car Loan -->
+    <test name="Home Loan" duration-ms="4" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+      <class name="TestNGTutorial.Class4">
+        <test-method status="PASS" signature="webLoginHomeLoan()[pri:0, instance:TestNGTutorial.Class4@30a3107a]" name="webLoginHomeLoan" duration-ms="0" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webLoginHomeLoan -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNGTutorial.Class4@30a3107a]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNGTutorial.Class4 -->
+      <class name="TestNGTutorial.Class3">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNGTutorial.Class3@458c1321]" name="beforeSuite" is-config="true" duration-ms="32" started-at="2021-07-20T10:52:59 IST" finished-at="2021-07-20T10:52:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+      </class> <!-- TestNGTutorial.Class3 -->
+    </test> <!-- Home Loan -->
+  </suite> <!-- Load Department -->
+</testng-results>

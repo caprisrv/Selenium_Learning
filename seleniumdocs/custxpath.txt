@@ -1,0 +1,5 @@
+Writing Customized xpath :
+
+Using Attributes .//tagName[@attribute=‘value’]
+
+Traversing through TagNames
